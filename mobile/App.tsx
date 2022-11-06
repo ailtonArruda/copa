@@ -10,6 +10,8 @@ import { THEME } from './src/styles/theme';
 import { Loading } from './src/components/Loading';
 import { SignIn } from './src/screens/SignIn';
 
+import { AuthContextProvider } from "./src/contexts/AuthContexts";
+
 export default function App() {
   const [fontsLoaded] = useFonts({
     Roboto_400Regular,
@@ -19,12 +21,15 @@ export default function App() {
   
   return (
     <NativeBaseProvider theme={THEME}>
+      <AuthContextProvider>
         <StatusBar
           barStyle="light-content"
           backgroundColor="transparent"
           translucent          
         />
+      
         {fontsLoaded ? <SignIn/> : <Loading />}
+        </AuthContextProvider>
     </NativeBaseProvider>
     
   );
