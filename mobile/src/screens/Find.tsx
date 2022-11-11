@@ -13,7 +13,7 @@ export function Find() {
             <VStack mt={9} mx={5} alignItems="center">           
 
                 <Heading fontFamily="heading" color="white" fontSize="xl" mb={8} textAlign="center">
-                Encontre um bolão através de {'\n'} seu código único
+                Encontre um bolão através  de {'\n'} seu código único
                 </Heading>
 
                 <Input
