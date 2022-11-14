@@ -1,6 +1,6 @@
-## 💻 Projeto
+## 💻 Project
 
-Aplicação para participar de bolões da Copa do Mundo 2022.
+Application to participate in 2022 World Cup pools.
 
 ## ✨ Tecnologia
 
@@ -11,11 +11,11 @@ Aplicação para participar de bolões da Copa do Mundo 2022.
 - [Fastify](https://www.fastify.io/)
 - [Prisma](https://www.prisma.io/)
 
-## 🚀 Como executar
+## 🚀 How to run
 
-Em todos os projetos, ao acessar a pasta, é preciso baixar os pacotes com o gerenciador de sua preferencia.
+In all projects, when accessing the folder, it is necessary to download the packages with the manager of your choice.
 
-Acesse a documentação de cada projeto:
+Access the documentation for each project:
 
 - [Backend](./server/README.md)
 - [Web](./web/README.md)
@@ -23,20 +23,10 @@ Acesse a documentação de cada projeto:
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através do link abaixo:
+You can view the layout of the project via the link below:
 
 - [Layout](https://www.figma.com/community/file/1169028343875283461)
 
 ## 📝 License
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-<p align="center">
-  Feito com 💜 by Rocketseat
-</p>
-
-<p align="center">
-  <a href="https://discord.gg/rocketseat">👉 Participe da nossa comunidade 👈</a>
-</p>
+This project is under the MIT license. See the [LICENSE](LICENSE) file for more details.
