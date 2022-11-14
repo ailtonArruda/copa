@@ -1,6 +1,6 @@
-## 🚀 Como executar
+## 🚀 How to run
 
-- Instale os pacotes com `npm install`.
-- Faça uma copia do arquivo `.env.example` para `.env` e altere caso necessário.
-- Execute `npx prisma migrate dev` para rodar as migrations. (Esse comando também já vai executar as seeds)
-- Execute `npm run dev` para iniciar o servidor.
+- Install the packages with `npm install`.
+- Make a copy of the `.env.example` file to `.env` and change it if necessary.
+- Run `npx prism migrate dev` to run migrations. (This command will also run the seeds)
+- Run `npm run dev` to start the server.
